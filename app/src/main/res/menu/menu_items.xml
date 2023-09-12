@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/sort_bottom_sheet"
+        android:title="Sort Bottom Sheet"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:titleTextColor="@android:color/white" />
+
+    <item
+        android:id="@+id/add_folder"
+        android:title="Add New Folder"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:titleTextColor="@android:color/white" />
+
+    <item
+        android:id="@+id/layoutMode"
+        android:title="Select Theme"
+        android:icon="@drawable/baseline_grid_view_24"
+        android:orderInCategory="100"
+        app:showAsAction="always" />
+
+   <!-- <item
+        android:id="@+id/themeToggle"
+        android:title="Layout Toggle"
+        app:showAsAction="ifRoom"
+        android:orderInCategory="100"
+        app:actionLayout="@layout/switch_layout"/>-->
+
+    <item
+        android:id="@+id/search"
+        android:title="Search"
+        android:orderInCategory="100"
+        android:actionLayout="@layout/switch_layout"
+        app:showAsAction="ifRoom|collapseActionView"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        android:icon="@drawable/baseline_search_24"/>
+
+
+    <item
+        android:id="@+id/setting"
+        android:title="Settings"
+        android:orderInCategory="100" />
+
+</menu>

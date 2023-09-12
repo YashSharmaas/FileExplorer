@@ -1,0 +1,55 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.example.yrmultimediaco.fileexplorer'
+    compileSdk 33
+
+    defaultConfig {
+        applicationId "com.example.yrmultimediaco.fileexplorer"
+        minSdk 23
+        targetSdk 33
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_16
+        targetCompatibility JavaVersion.VERSION_16
+    }
+}
+
+dependencies {
+
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.5.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+
+    implementation 'com.mikepenz:fastadapter:3.3.1'
+    implementation 'com.mikepenz:fastadapter-commons:3.3.1'
+
+    implementation 'com.mikepenz:iconics-views:3.2.5'
+    implementation 'com.mikepenz:iconics-core:3.2.5'
+    implementation 'com.github.bumptech.glide:glide:4.15.1'
+    implementation 'com.mikepenz:community-material-typeface:3.5.95.1@aar'
+    implementation 'com.mikepenz:fastadapter-extensions:3.3.1'
+    implementation 'com.mikepenz:materialize:1.2.0'
+    implementation 'org.greenrobot:eventbus-java:3.3.1'
+    implementation 'org.greenrobot:eventbus:3.3.1'
+    implementation 'com.facebook.shimmer:shimmer:0.5.0'
+    implementation 'com.airbnb.android:lottie:6.1.0'
+    implementation 'com.mikepenz:materialdrawer:6.1.2'
+
+}

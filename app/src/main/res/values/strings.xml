@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">File Explorer</string>
+    <string name="action_mode_title"> %d</string>
+    <string name="key_folder">key_folder</string>
+    <string name="key_folder_summary">Switch this toggle to hide or show the Hidden files</string>
+    <string name="show_hide_folder">Hide/Show Hidden Folder</string>
+    <string name="key_store_search_history">store_search_history</string>
+    <string name="key_store_search_history_summary">Switch this Toggle if you want store or not Store search history</string>
+    <string name="store_search_history">Store Search History</string>
+    <string name="drawer_item_home">Home</string>
+    <string name="drawer_item_settings">Settings</string>
+
+
+</resources>

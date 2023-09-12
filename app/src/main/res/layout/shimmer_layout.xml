@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        >
+
+        <com.mikepenz.iconics.view.IconicsImageView
+            android:id="@+id/icon"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@color/shimmer_color"
+            app:iiv_size="36dp"
+            app:iiv_padding="2dp"
+            android:clickable="false" />
+
+
+        <TextView
+            android:id="@+id/file_nam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_toStartOf="@id/btnDetail"
+            android:layout_toEndOf="@+id/icon"
+            android:padding="10dp"
+            android:background="@color/shimmer_color"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/itemCoun"
+            android:layout_width="45dp"
+            android:layout_height="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_below="@id/file_nam"
+            android:background="@color/shimmer_color"
+            android:padding="5dp"
+
+            />
+
+
+        <TextView
+            android:id="@+id/itemDat"
+            android:layout_width="105dp"
+            android:layout_height="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/file_nam"
+            android:background="@color/shimmer_color"
+            android:layout_toEndOf="@id/itemCoun"
+            android:padding="5dp" />
+
+        <ImageView
+            android:id="@+id/btnDetail"
+            android:layout_width="8dp"
+            android:layout_height="18dp"
+            android:layout_marginLeft="15dp"
+            android:background="@color/shimmer_color"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="15dp"
+            android:layout_below="@id/itemCoun"
+            android:background="@color/shimmer_color"/>
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        >
+
+        <com.mikepenz.iconics.view.IconicsImageView
+            android:id="@+id/iconl"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@color/shimmer_color"
+            app:iiv_size="36dp"
+            app:iiv_padding="2dp"
+            android:clickable="false" />
+
+
+        <TextView
+            android:id="@+id/file_naml"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_toStartOf="@id/btnDetaill"
+            android:layout_toEndOf="@+id/iconl"
+            android:padding="10dp"
+            android:background="@color/shimmer_color"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/itemCounl"
+            android:layout_width="45dp"
+            android:layout_height="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_below="@id/file_naml"
+            android:background="@color/shimmer_color"
+            android:padding="5dp"
+
+            />
+
+
+        <TextView
+            android:id="@+id/itemDatl"
+            android:layout_width="105dp"
+            android:layout_height="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/file_naml"
+            android:background="@color/shimmer_color"
+            android:layout_toEndOf="@id/itemCounl"
+            android:padding="5dp" />
+
+        <ImageView
+            android:id="@+id/btnDetaill"
+            android:layout_width="8dp"
+            android:layout_height="18dp"
+            android:layout_marginLeft="15dp"
+            android:background="@color/shimmer_color"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="15dp"
+            android:layout_below="@id/itemCounl"
+            android:background="@color/shimmer_color"/>
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        >
+
+        <com.mikepenz.iconics.view.IconicsImageView
+            android:id="@+id/iconla"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@color/shimmer_color"
+            app:iiv_size="36dp"
+            app:iiv_padding="2dp"
+            android:clickable="false" />
+
+
+        <TextView
+            android:id="@+id/file_namla"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_toStartOf="@id/btnDetailla"
+            android:layout_toEndOf="@+id/iconla"
+            android:padding="10dp"
+            android:background="@color/shimmer_color"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/itemCounla"
+            android:layout_width="45dp"
+            android:layout_height="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_below="@id/file_namla"
+            android:background="@color/shimmer_color"
+            android:padding="5dp"
+
+            />
+
+
+        <TextView
+            android:id="@+id/itemDatla"
+            android:layout_width="105dp"
+            android:layout_height="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/file_namla"
+            android:background="@color/shimmer_color"
+            android:layout_toEndOf="@id/itemCounla"
+            android:padding="5dp" />
+
+        <ImageView
+            android:id="@+id/btnDetailla"
+            android:layout_width="8dp"
+            android:layout_height="18dp"
+            android:layout_marginLeft="15dp"
+            android:background="@color/shimmer_color"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="15dp"
+            android:layout_below="@id/itemCounla"
+            android:background="@color/shimmer_color"/>
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        >
+
+        <com.mikepenz.iconics.view.IconicsImageView
+            android:id="@+id/iconlaq"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@color/shimmer_color"
+            app:iiv_size="36dp"
+            app:iiv_padding="2dp"
+            android:clickable="false" />
+
+
+        <TextView
+            android:id="@+id/file_namlaq"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_toStartOf="@id/btnDetaillaq"
+            android:layout_toEndOf="@+id/iconlaq"
+            android:padding="10dp"
+            android:background="@color/shimmer_color"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/itemCounlaq"
+            android:layout_width="45dp"
+            android:layout_height="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_below="@id/file_namlaq"
+            android:background="@color/shimmer_color"
+            android:padding="5dp"
+
+            />
+
+
+        <TextView
+            android:id="@+id/itemDatlaq"
+            android:layout_width="105dp"
+            android:layout_height="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/file_namlaq"
+            android:background="@color/shimmer_color"
+            android:layout_toEndOf="@id/itemCounlaq"
+            android:padding="5dp" />
+
+        <ImageView
+            android:id="@+id/btnDetaillaq"
+            android:layout_width="8dp"
+            android:layout_height="18dp"
+            android:layout_marginLeft="15dp"
+            android:background="@color/shimmer_color"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="15dp"
+            android:layout_below="@id/itemCounlaq"
+            android:background="@color/shimmer_color"/>
+
+
+
+    </RelativeLayout>
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        >
+
+        <com.mikepenz.iconics.view.IconicsImageView
+            android:id="@+id/iconlaqw"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@color/shimmer_color"
+            app:iiv_size="36dp"
+            app:iiv_padding="2dp"
+            android:clickable="false" />
+
+
+        <TextView
+            android:id="@+id/file_namlaqw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_toStartOf="@id/btnDetaillaqw"
+            android:layout_toEndOf="@+id/iconlaqw"
+            android:padding="10dp"
+            android:background="@color/shimmer_color"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/itemCounlaqw"
+            android:layout_width="45dp"
+            android:layout_height="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_below="@id/file_namlaqw"
+            android:background="@color/shimmer_color"
+            android:padding="5dp"
+
+            />
+
+
+        <TextView
+            android:id="@+id/itemDatlaqw"
+            android:layout_width="105dp"
+            android:layout_height="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/file_namlaqw"
+            android:background="@color/shimmer_color"
+            android:layout_toEndOf="@id/itemCounlaqw"
+            android:padding="5dp" />
+
+        <ImageView
+            android:id="@+id/btnDetaillaqw"
+            android:layout_width="8dp"
+            android:layout_height="18dp"
+            android:layout_marginLeft="15dp"
+            android:background="@color/shimmer_color"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="15dp"
+            android:layout_below="@id/itemCounlaqw"
+            android:background="@color/shimmer_color"/>
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        >
+
+        <com.mikepenz.iconics.view.IconicsImageView
+            android:id="@+id/iconlaqwe"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@color/shimmer_color"
+            app:iiv_size="36dp"
+            app:iiv_padding="2dp"
+            android:clickable="false" />
+
+
+        <TextView
+            android:id="@+id/file_namlaqwe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_toStartOf="@id/btnDetaillaqwe"
+            android:layout_toEndOf="@+id/iconlaqwe"
+            android:padding="10dp"
+            android:background="@color/shimmer_color"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/itemCounlaqwe"
+            android:layout_width="45dp"
+            android:layout_height="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_below="@id/file_namlaqwe"
+            android:background="@color/shimmer_color"
+            android:padding="5dp"
+
+            />
+
+
+        <TextView
+            android:id="@+id/itemDatlaqwe"
+            android:layout_width="105dp"
+            android:layout_height="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/file_namlaqwe"
+            android:background="@color/shimmer_color"
+            android:layout_toEndOf="@id/itemCounlaqwe"
+            android:padding="5dp" />
+
+        <ImageView
+            android:id="@+id/btnDetaillaqwe"
+            android:layout_width="8dp"
+            android:layout_height="18dp"
+            android:layout_marginLeft="15dp"
+            android:background="@color/shimmer_color"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="15dp"
+            android:layout_below="@id/itemCounlaqwe"
+            android:background="@color/shimmer_color"/>
+
+
+
+    </RelativeLayout>
+
+
+      <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        >
+
+        <com.mikepenz.iconics.view.IconicsImageView
+            android:id="@+id/iconlaqwey"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@color/shimmer_color"
+            app:iiv_size="36dp"
+            app:iiv_padding="2dp"
+            android:clickable="false" />
+
+
+        <TextView
+            android:id="@+id/file_namlaqwey"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_toStartOf="@id/btnDetaillaqwey"
+            android:layout_toEndOf="@+id/iconlaqwey"
+            android:padding="10dp"
+            android:background="@color/shimmer_color"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/itemCounlaqwey"
+            android:layout_width="45dp"
+            android:layout_height="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_below="@id/file_namlaqwey"
+            android:background="@color/shimmer_color"
+            android:padding="5dp"
+
+            />
+
+
+        <TextView
+            android:id="@+id/itemDatlaqwey"
+            android:layout_width="105dp"
+            android:layout_height="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/file_namlaqwey"
+            android:background="@color/shimmer_color"
+            android:layout_toEndOf="@id/itemCounlaqwey"
+            android:padding="5dp" />
+
+        <ImageView
+            android:id="@+id/btnDetaillaqwey"
+            android:layout_width="8dp"
+            android:layout_height="18dp"
+            android:layout_marginLeft="15dp"
+            android:background="@color/shimmer_color"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="15dp"
+            android:layout_below="@id/itemCounlaqwey"
+            android:background="@color/shimmer_color"/>
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        >
+
+        <com.mikepenz.iconics.view.IconicsImageView
+            android:id="@+id/iconlaqweyf"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@color/shimmer_color"
+            app:iiv_size="36dp"
+            app:iiv_padding="2dp"
+            android:clickable="false" />
+
+
+        <TextView
+            android:id="@+id/file_namlaqweyf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_toStartOf="@id/btnDetaillaqweyf"
+            android:layout_toEndOf="@+id/iconlaqweyf"
+            android:padding="10dp"
+            android:background="@color/shimmer_color"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/itemCounlaqweyf"
+            android:layout_width="45dp"
+            android:layout_height="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_below="@id/file_namlaqweyf"
+            android:background="@color/shimmer_color"
+            android:padding="5dp"
+
+            />
+
+
+        <TextView
+            android:id="@+id/itemDatlaqweyf"
+            android:layout_width="105dp"
+            android:layout_height="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/file_namlaqweyf"
+            android:background="@color/shimmer_color"
+            android:layout_toEndOf="@id/itemCounlaqweyf"
+            android:padding="5dp" />
+
+        <ImageView
+            android:id="@+id/btnDetaillaqweyf"
+            android:layout_width="8dp"
+            android:layout_height="18dp"
+            android:layout_marginLeft="15dp"
+            android:background="@color/shimmer_color"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="15dp"
+            android:layout_below="@id/itemCounlaqweyf"
+            android:background="@color/shimmer_color"/>
+
+
+
+    </RelativeLayout>
+
+</LinearLayout>
+
+

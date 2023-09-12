@@ -1,0 +1,64 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.FileExplorer" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+         <item name="colorPrimary">@color/yellow</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="windowActionModeOverlay">true</item>
+
+    </style>
+
+   <!-- <style name="Theme.FileExplorer.Dark" parent="Base.Theme.FileExplorer">
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:itemTextAppearance">@style/MenuItemTextAppearance.Light</item>
+    </style>
+
+    <style name="AppTheme" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:textColorPrimary">@color/white</item>
+    </style>
+
+    <style name="MenuItemTextAppearance.Light" parent="TextAppearance.AppCompat.Widget.ActionBar.Menu">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="ThemeOverlay.mYPopupTheme." parent="Theme.AppCompat.Light">
+        <item name="android:colorBackground">#000000</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="RecyclerViewTheme">
+        <item name="android:background">@color/black</item>
+
+        <item name="iconTintMode">@color/white</item>
+        <item name="android:padding">8dp</item>
+    </style>-->
+
+   <!-- <style name="ThemeOverlay.mYPopupTheme." parent="Theme.AppCompat.Light">
+        <item name="android:colorBackground">@color/material_drawer_dark_background</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>-->
+
+    <style name="CustomTheme_Dark" parent="MaterialDrawerTheme">
+        <!-- ...and here we setting appcompat’s color theming attrs -->
+        <item name="colorPrimary">@color/yellow</item>
+        <item name="colorPrimaryDark">@color/yellow</item>
+        <item name="colorAccent">#FFC63F</item>
+        <item name="windowActionModeOverlay">true</item>
+
+        <!-- MaterialDrawer specific values -->
+        <item name="material_drawer_background">@color/material_drawer_dark_background</item>
+        <item name="material_drawer_primary_text">@color/material_drawer_dark_primary_text</item>
+        <item name="material_drawer_primary_icon">@color/material_drawer_dark_primary_icon</item>
+        <item name="material_drawer_secondary_text">@color/material_drawer_dark_secondary_text</item>
+        <item name="material_drawer_hint_text">@color/material_drawer_dark_hint_text</item>
+        <item name="material_drawer_divider">@color/material_drawer_dark_divider</item>
+        <item name="material_drawer_selected">@color/material_drawer_dark_selected</item> <!-- Material 2 defines 12% alpha, primary color -->
+        <item name="material_drawer_selected_legacy">@color/material_drawer_dark_selected_legacy</item> <!-- Defines the color if legacy style (Material 1, is enabled) -->
+        <item name="material_drawer_selected_text">@color/yellow</item>
+        <item name="material_drawer_header_selection_text">@color/material_drawer_dark_header_selection_text</item>
+        <item name="material_drawer_header_selection_subtext">@color/material_drawer_dark_header_selection_subtext</item>
+        <item name="material_drawer_legacy_style">false</item> <!-- Enables legacy Material 1 style -->
+    </style>
+
+
+</resources>

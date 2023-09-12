@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/path"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Internal Storaage"
+        android:textSize="16sp"
+        android:padding="2dp"
+        android:textColor="#FDD835"/>
+
+    <com.mikepenz.iconics.view.IconicsImageView
+        android:id="@+id/navIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:iiv_color="#000000"
+        app:iiv_padding="2dp"
+        android:layout_marginTop="6dp"
+        android:clickable="false" />
+
+
+</LinearLayout>

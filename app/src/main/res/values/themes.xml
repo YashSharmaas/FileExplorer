@@ -1,0 +1,42 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.FileExplorer" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+         <item name="colorPrimary">@color/yellow</item>
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="backgroundColor">@color/white</item>
+        <item name="windowActionModeOverlay">true</item>
+    </style>
+
+
+    <!--<style name="ThemeOverlay.mYPopupTheme." parent="Theme.AppCompat.Light">
+        <item name="android:colorBackground">#000000</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="iconTint">@color/white</item>
+    </style>-->
+
+    <style name="CustomTheme" parent="MaterialDrawerTheme">
+        <!-- ...and here we setting appcompat’s color theming attrs -->
+        <!--<item name="colorPrimary">@color/yellow</item>
+        <item name="colorPrimaryDark">@color/yellow</item>
+        <item name="colorAccent">#FFC63F</item>
+        <item name="windowActionModeOverlay">true</item>
+
+        &lt;!&ndash; MaterialDrawer specific values &ndash;&gt;
+        <item name="material_drawer_background">@color/material_drawer_background</item>
+        <item name="material_drawer_primary_text">@color/material_drawer_primary_text</item>
+        <item name="material_drawer_primary_icon">@color/material_drawer_primary_icon</item>
+        <item name="material_drawer_secondary_text">@color/material_drawer_secondary_text</item>
+        <item name="material_drawer_hint_text">@color/material_drawer_hint_text</item>
+        <item name="material_drawer_divider">@color/material_drawer_divider</item>
+        <item name="material_drawer_selected">@color/material_drawer_selected</item> &lt;!&ndash; Material 2 defines 12% alpha, primary color &ndash;&gt;
+        <item name="material_drawer_selected_legacy">@color/material_drawer_selected</item> &lt;!&ndash; Defines the color if legacy style (Material 1, is enabled) &ndash;&gt;
+        <item name="material_drawer_selected_text">@color/yellow</item>
+        <item name="material_drawer_header_selection_text">@color/material_drawer_header_selection_text</item>
+        <item name="material_drawer_header_selection_subtext">@color/material_drawer_dark_header_selection_subtext</item>
+        <item name="material_drawer_legacy_style">false</item>--> <!-- Enables legacy Material 1 style -->
+
+    </style>
+
+</resources>

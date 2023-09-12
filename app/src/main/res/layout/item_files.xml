@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="10dp">
+
+    <com.mikepenz.iconics.view.IconicsImageView
+        android:id="@+id/iconS"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        app:iiv_color="#FCCF00"
+        app:iiv_size="36dp"
+        app:iiv_padding="2dp"
+        android:clickable="false" />
+
+    <ImageView
+        android:id="@+id/overlayImg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_check_24"
+        android:visibility="gone"
+        android:scaleType="center" />
+
+    <ImageView
+        android:id="@+id/thumbnailImg"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:padding="2dp"
+        android:layout_toRightOf="@id/iconS" />
+
+    <TextView
+        android:id="@+id/file_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:padding="10dp"
+        android:text="Document"
+        android:layout_toEndOf="@id/thumbnailImg"
+        android:layout_toStartOf="@id/btnDetails" />
+
+    <TextView
+        android:id="@+id/itemCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/file_name"
+        android:text="8 Items"
+        android:padding="5dp"
+
+        />
+
+
+    <TextView
+        android:id="@+id/itemDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/file_name"
+
+        android:layout_toEndOf="@id/itemCount"
+        android:padding="5dp"
+        android:text="18/10/2000" />
+
+    <ImageView
+        android:id="@+id/btnDetails"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/baseline_more_vert_24"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/itemCount"
+        android:background="@color/cardview_shadow_start_color"/>
+
+</RelativeLayout>
